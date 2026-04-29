@@ -23,15 +23,15 @@ export default async function handler(req, res) {
             role: 'user',
             content: `Buatkan ${jumlahSoal} soal pilihan ganda tentang "${topic}".
 
-Balas HANYA dengan JSON array murni, tanpa teks lain, tanpa backtick, tanpa markdown, langsung mulai dengan karakter "[" seperti ini:
-[
-  {
-    "pertanyaan": "...",
-    "pilihan": ["A. ...", "B. ...", "C. ...", "D. ..."],
-    "jawaban_benar": "A. ...",
-    "penjelasan": "..."
-  }
-]`
+              Balas HANYA dengan JSON array murni, tanpa teks lain, tanpa backtick, tanpa markdown, langsung mulai dengan karakter "[" seperti ini:
+              [
+                {
+                  "pertanyaan": "...",
+                  "pilihan": ["A. ...", "B. ...", "C. ...", "D. ..."],
+                  "jawaban_benar": "A. ...",
+                  "penjelasan": "..."
+                }
+              ]`
           }
         ],
         temperature: 0.7
