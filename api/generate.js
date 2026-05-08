@@ -23,7 +23,7 @@ export default async function handler(req, res) {
             role: 'user',
             content: `Buatkan ${jumlahSoal} soal pilihan ganda tentang "${topic}".
 
-              Balas HANYA dengan JSON array murni, tanpa teks lain, tanpa backtick, tanpa markdown, langsung mulai dengan karakter "[" seperti ini:
+              Balas HANYA dengan JSON array murni, tanpa teks lain, tanpa backtick, tanpa markdown, gunakan bahasa inggris dan langsung mulai dengan karakter "[" seperti ini:
               [
                 {
                   "pertanyaan": "...",
